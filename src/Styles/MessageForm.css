@@ -1,0 +1,101 @@
+.mesForm-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mesForm-Form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid orange;
+    width: 900px;
+    z-index: 999;
+}
+.mesForm-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.mesForm-2row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mesForm-item{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.openMessage {
+    display: flex;
+    justify-content: flex-start;
+}
+.downloadButton {
+    position: relative;
+    left: 13.4rem;
+    color: white;
+    background-color: #0095F6;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: none;
+}
+.downBut-label {
+    color: grey;
+}
+.mesForm-Form label {
+    margin-right: 10px;
+}
+.mesForm-Form input[type="radio"] {
+    margin-right: 20px;
+    background-color: transparent;
+}
+.mesForm-Form input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BABABA;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    background-color: transparent;
+}
+.mesForm-Form input[type="checkbox"] {
+    margin-right: 10px;
+    background-color: transparent;
+}
+.textArea textarea {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: none;
+    z-index: 999;
+}
+.textArea p {
+    margin-bottom: 5px;
+}
+.bottomContent input[type="submit"], input[type="reset"] {
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px -1px 4px rgba(0, 0, 0, 0.15), 0px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+.bottomContent input[type="reset"] {
+    background-color: #0095F6;
+}
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

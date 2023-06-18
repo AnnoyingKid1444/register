@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImg {
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+}

@@ -1,0 +1,13 @@
+.MessageBlock-Container h1 {
+    margin: 20px;
+    text-align: center;
+    color: #0095F6;
+}
+.MessageBlock {
+    width: 1481px;
+    height: 900px;
+    margin: 20px;
+    padding: 20px;
+    padding-right: 5px;
+    border: 1px solid orange;
+ }
